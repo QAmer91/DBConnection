@@ -32,6 +32,7 @@ public class InputFormWithLombokPageTest {
         inputFormWithLombokPage.getAgeFieldInput().sendKeys("123");
         inputFormWithLombokPage.selectCountry("Egypt");
 
+        
         softAssert.assertAll();
 
 
