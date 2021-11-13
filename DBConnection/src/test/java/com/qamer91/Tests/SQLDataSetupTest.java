@@ -24,7 +24,7 @@ public class SQLDataSetupTest {
 
         //Do whatever testing you want here
 
-    }
+    } 
 
     @AfterTest
     public void deleteTestData() throws SQLException {
