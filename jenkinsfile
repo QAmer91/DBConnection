@@ -25,13 +25,13 @@ pipeline {
 
             stage('Docker Build'){
              steps{
-              bat "docker build -t integImage ."
+              bat "docker build -t integ-image ."
               }
             }
 
             stage('Docker Run'){
             steps {
-            bat "docker run integImage"
+            bat "docker run integ-image"
             }
             }
             }
