@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 
 public class InputFormWithoutLombokTest {
@@ -16,7 +17,7 @@ public class InputFormWithoutLombokTest {
     SoftAssert softAssert;
 
     @Test
-    public void insertInputToNonLombokElements() throws MalformedURLException {
+    public void insertInputToNonLombokElements() throws IOException {
         driverHandler = new DriverHandler();
         softAssert = new SoftAssert();
         driver = driverHandler.createDriver();

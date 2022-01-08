@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Selenium Lombok POC" configfailurepolicy="continue">
+
+
+    <test parallel="classes" thread-count="1" name="Selenium Lombok">
+        <packages>
+<!--            <package name="com.qamer91.Tests"/>-->
+            <package name="com.qamer91.integ"></package>
+        </packages>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->

@@ -8,8 +8,11 @@ import org.openqa.selenium.support.ui.Select;
 
 public class InputFormWithoutLombokPage {
 
+    WebDriver driver;
 
     public InputFormWithoutLombokPage(WebDriver driver){
+
+        this.driver = driver ;
         PageFactory.initElements(driver, this);
     }
 
